@@ -1,0 +1,154 @@
+2023-03-28 11:58:39,887 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Launching chrome
+2023-03-28 11:58:42,554 [main] INFO com.cucumber.stepdefinitions.AlertFeature - simple alert
+2023-03-28 11:58:42,679 [main] INFO com.cucumber.stepdefinitions.AlertFeature - confirm  alert
+2023-03-28 11:59:46,499 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Launching chrome
+2023-03-28 11:59:49,405 [main] INFO com.cucumber.stepdefinitions.AlertFeature - simple alert
+2023-03-28 11:59:49,457 [main] INFO com.cucumber.stepdefinitions.AlertFeature - confirm  alert
+2023-03-28 11:59:49,586 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Prompt alert
+2023-03-28 16:09:52,513 [main] INFO com.cucumber.stepdefinitions.FrameHandling - launch the browser
+2023-03-28 16:09:55,069 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Get the Frameurl
+2023-03-28 16:09:55,325 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Handling the Frame
+2023-03-28 16:09:55,332 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Frame Handled successfully
+2023-03-28 16:09:57,571 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Launch the Chrome
+2023-03-28 16:10:00,003 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pass the username and Password
+2023-03-28 16:10:00,127 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Click on the Login Button
+2023-03-28 16:10:00,620 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-03-28 16:10:01,872 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Launch the Chrome
+2023-03-28 16:10:07,093 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pass the username and Password
+2023-03-28 16:10:09,754 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pointed out the Green highlighted successfully ingreencolor
+2023-03-28 16:10:11,142 [main] INFO com.cucumber.stepdefinitions.window - Launch the Chrome
+2023-03-28 16:10:14,366 [main] INFO com.cucumber.stepdefinitions.window - window open
+2023-03-28 16:10:14,521 [main] INFO com.cucumber.stepdefinitions.window - Parentwindow
+2023-03-28 16:10:17,249 [main] INFO com.cucumber.stepdefinitions.window - Windows Validated Successfully
+2023-03-28 16:10:19,021 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Launch the Chrome
+2023-03-28 16:10:28,002 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Get the Fileuploadurl
+2023-03-28 16:10:28,097 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Choose the File
+2023-03-28 16:10:28,622 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - click on the upload button
+2023-03-28 16:10:28,633 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - File upload is successfully
+2023-03-28 16:10:30,854 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Get the pdfurl
+2023-03-28 16:10:33,707 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Image extracted from the PDF
+2023-03-28 16:10:35,099 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Launching chrome
+2023-03-28 16:10:40,230 [main] INFO com.cucumber.stepdefinitions.AlertFeature - simple alert
+2023-03-28 16:10:40,344 [main] INFO com.cucumber.stepdefinitions.AlertFeature - confirm  alert
+2023-03-28 16:10:40,514 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Prompt alert
+2023-03-29 01:27:44,272 [main] INFO com.cucumber.stepdefinitions.FrameHandling - launch the browser
+2023-03-29 01:27:47,681 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Get the Frameurl
+2023-03-29 01:27:47,971 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Handling the Frame
+2023-03-29 01:27:47,980 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Frame Handled successfully
+2023-03-29 01:27:49,436 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Launch the Chrome
+2023-03-29 01:27:52,449 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pass the username and Password
+2023-03-29 01:27:52,793 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Click on the Login Button
+2023-03-29 01:27:52,915 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-03-29 01:27:54,799 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Launch the Chrome
+2023-03-29 01:28:01,673 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pass the username and Password
+2023-03-29 01:28:03,309 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pointed out the Green highlighted successfully ingreencolor
+2023-03-29 01:28:05,157 [main] INFO com.cucumber.stepdefinitions.window - Launch the Chrome
+2023-03-29 01:28:16,886 [main] INFO com.cucumber.stepdefinitions.window - window open
+2023-03-29 01:28:16,948 [main] INFO com.cucumber.stepdefinitions.window - Parentwindow
+2023-03-29 01:28:23,385 [main] INFO com.cucumber.stepdefinitions.window - Windows Validated Successfully
+2023-03-29 01:28:24,792 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Launch the Chrome
+2023-03-29 01:28:29,239 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Get the Fileuploadurl
+2023-03-29 01:28:29,339 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Choose the File
+2023-03-29 01:28:29,742 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - click on the upload button
+2023-03-29 01:28:29,752 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - File upload is successfully
+2023-03-29 01:28:31,710 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Get the pdfurl
+2023-03-29 01:28:34,694 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Image extracted from the PDF
+2023-03-29 01:28:49,174 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Launching chrome
+2023-03-29 01:28:55,347 [main] INFO com.cucumber.stepdefinitions.AlertFeature - simple alert
+2023-03-29 01:28:55,416 [main] INFO com.cucumber.stepdefinitions.AlertFeature - confirm  alert
+2023-03-29 01:28:55,664 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Prompt alert
+2023-03-29 12:52:05,228 [main] INFO com.cucumber.stepdefinitions.FrameHandling - launch the browser
+2023-03-29 12:52:08,437 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Get the Frameurl
+2023-03-29 12:59:11,880 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Launch the Chrome
+2023-03-29 12:59:40,758 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pass the username and Password
+2023-03-29 12:59:41,731 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Click on the Login Button
+2023-03-29 12:59:45,146 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-03-29 13:01:57,661 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Launch the Chrome
+2023-03-29 13:02:04,641 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pass the username and Password
+2023-03-29 13:02:06,778 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pointed out the Green highlighted successfully ingreencolor
+2023-03-29 13:11:48,351 [main] INFO com.cucumber.stepdefinitions.FrameHandling - launch the browser
+2023-03-29 13:11:51,253 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Get the Frameurl
+2023-03-29 13:11:51,592 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Handling the Frame
+2023-03-29 13:11:51,603 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Frame Handled successfully
+2023-03-29 13:11:53,389 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Launch the Chrome
+2023-03-29 13:11:55,689 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pass the username and Password
+2023-03-29 13:11:56,507 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Click on the Login Button
+2023-03-29 13:11:56,590 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-03-29 13:11:56,606 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-03-29 13:11:58,177 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Launch the Chrome
+2023-03-29 13:12:06,798 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pass the username and Password
+2023-03-29 13:12:09,218 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pointed out the Green highlighted successfully ingreencolor
+2023-03-29 13:12:11,254 [main] INFO com.cucumber.stepdefinitions.window - Launch the Chrome
+2023-03-29 13:12:20,027 [main] INFO com.cucumber.stepdefinitions.window - window open
+2023-03-29 13:12:20,150 [main] INFO com.cucumber.stepdefinitions.window - Parentwindow
+2023-03-29 13:12:26,063 [main] INFO com.cucumber.stepdefinitions.window - Windows Validated Successfully
+2023-03-29 13:12:27,991 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Launch the Chrome
+2023-03-29 13:12:33,882 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Get the Fileuploadurl
+2023-03-29 13:12:34,011 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Choose the File
+2023-03-29 13:12:34,587 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - click on the upload button
+2023-03-29 13:12:34,599 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - File upload is successfully
+2023-03-29 13:12:37,718 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Get the pdfurl
+2023-03-29 13:12:41,487 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Image extracted from the PDF
+2023-03-29 13:12:59,548 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Launching chrome
+2023-03-29 13:13:09,799 [main] INFO com.cucumber.stepdefinitions.AlertFeature - simple alert
+2023-03-29 13:13:09,968 [main] INFO com.cucumber.stepdefinitions.AlertFeature - confirm  alert
+2023-03-29 13:13:10,617 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Prompt alert
+2023-03-29 13:15:27,860 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Launching chrome
+2023-03-29 13:17:06,558 [main] INFO com.cucumber.stepdefinitions.FrameHandling - launch the browser
+2023-03-29 13:17:09,290 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Get the Frameurl
+2023-03-29 13:17:09,621 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Handling the Frame
+2023-03-29 13:17:09,631 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Frame Handled successfully
+2023-03-29 13:17:11,194 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Launch the Chrome
+2023-03-29 13:17:14,113 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pass the username and Password
+2023-03-29 13:17:14,698 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Click on the Login Button
+2023-03-29 13:17:14,790 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-03-29 13:17:14,809 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-03-29 13:17:16,474 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Launch the Chrome
+2023-03-29 13:17:23,410 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pass the username and Password
+2023-03-29 13:17:25,811 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pointed out the Green highlighted successfully ingreencolor
+2023-03-29 13:17:27,614 [main] INFO com.cucumber.stepdefinitions.window - Launch the Chrome
+2023-03-29 13:17:31,587 [main] INFO com.cucumber.stepdefinitions.window - window open
+2023-03-29 13:17:31,857 [main] INFO com.cucumber.stepdefinitions.window - Parentwindow
+2023-03-29 13:17:38,026 [main] INFO com.cucumber.stepdefinitions.window - Windows Validated Successfully
+2023-03-29 13:17:40,332 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Launch the Chrome
+2023-03-29 13:17:48,115 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Get the Fileuploadurl
+2023-03-29 13:17:48,260 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Choose the File
+2023-03-29 13:17:49,053 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - click on the upload button
+2023-03-29 13:17:49,066 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - File upload is successfully
+2023-03-29 13:17:52,390 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Get the pdfurl
+2023-03-29 13:17:56,499 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Image extracted from the PDF
+2023-03-29 13:18:14,067 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Launching chrome
+2023-03-29 13:32:11,279 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Launching chrome
+2023-03-29 13:32:15,656 [main] INFO com.cucumber.stepdefinitions.AlertFeature - simple alert
+2023-03-29 13:32:15,757 [main] INFO com.cucumber.stepdefinitions.AlertFeature - confirm  alert
+2023-03-29 13:32:16,074 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Prompt alert
+2023-03-31 12:37:54,163 [main] INFO com.cucumber.stepdefinitions.FrameHandling - launch the browser
+2023-03-31 12:37:56,905 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Get the Frameurl
+2023-03-31 12:37:57,252 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Handling the Frame
+2023-03-31 12:37:57,264 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Frame Handled successfully
+2023-03-31 12:38:49,580 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Launch the Chrome
+2023-03-31 12:38:54,343 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pass the username and Password
+2023-03-31 12:38:55,236 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Click on the Login Button
+2023-03-31 12:38:55,307 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-03-31 12:38:55,320 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-03-31 12:38:57,417 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Launch the Chrome
+2023-03-31 12:39:08,758 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pass the username and Password
+2023-03-31 12:39:10,796 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pointed out the Green highlighted successfully ingreencolor
+2023-03-31 12:39:13,425 [main] INFO com.cucumber.stepdefinitions.window - Launch the Chrome
+2023-03-31 12:39:25,584 [main] INFO com.cucumber.stepdefinitions.window - window open
+2023-03-31 12:39:25,701 [main] INFO com.cucumber.stepdefinitions.window - Parentwindow
+2023-03-31 12:39:27,937 [main] INFO com.cucumber.stepdefinitions.window - Windows Validated Successfully
+2023-03-31 12:39:31,999 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Launch the Chrome
+2023-03-31 12:39:37,876 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Get the Fileuploadurl
+2023-03-31 12:39:37,987 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Choose the File
+2023-03-31 12:39:38,408 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - click on the upload button
+2023-03-31 12:39:38,422 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - File upload is successfully
+2023-03-31 12:39:41,301 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Get the pdfurl
+2023-03-31 12:39:44,973 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Image extracted from the PDF
+2023-03-31 12:40:08,917 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Launching chrome
+2023-03-31 12:40:13,348 [main] INFO com.cucumber.stepdefinitions.AlertFeature - simple alert
+2023-03-31 12:40:13,415 [main] INFO com.cucumber.stepdefinitions.AlertFeature - confirm  alert
+2023-03-31 12:40:13,713 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Prompt alert
+2023-04-01 00:53:03,207 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Launch the Chrome
+2023-04-01 00:53:09,245 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pass the username and Password
+2023-04-01 00:53:11,285 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pointed out the Green highlighted successfully ingreencolor
