@@ -22,13 +22,13 @@ public class FramePage extends BaseClass {
 	@FindBy(xpath="//button[@id='Click']") 
 	private WebElement click ;
 
-	public WebElement getframe1() {
+	public WebElement getFrame1() {
 		return frame1;
 	}
-	public WebElement getframe2() {
+	public WebElement getFrame2() {
 		return frame2;
 	}
-	public WebElement getframeclick() {
+	public WebElement getFrameClick() {
 		return click;
 	}
 }

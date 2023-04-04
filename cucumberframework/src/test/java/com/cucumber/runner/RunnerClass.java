@@ -1,5 +1,6 @@
 package com.cucumber.runner;
 
+//import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 
 import io.cucumber.junit.Cucumber;
@@ -10,5 +11,5 @@ import io.cucumber.junit.CucumberOptions;
 		"pretty", "html:target/cucumber-reports","json:target/cucumber.json", "io.qameta.allure.cucumber5jvm.AllureCucumber5Jvm",
 		"timeline:test-output-thread/", "rerun:target/failscenario.txt" }, dryRun = false, monochrome = true)
 public class RunnerClass {
-
+	
 }

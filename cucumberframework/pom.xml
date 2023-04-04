@@ -165,6 +165,8 @@
 
 					<includes>**/JUnitRunner.java</includes>
 					<parallel>classesAndMethods</parallel>
+					<forkCount>2</forkCount>
+                    <reuseForks>true</reuseForks>
 
 
 				</configuration>

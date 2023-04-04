@@ -42,12 +42,12 @@ public class DatabaseVerification extends BaseClass {
                System.out.println(email);
                System.out.println(password);
                //driver.findElement(By.xpath("(//a[normalize-space()='Log in'])[1]")).click();
-               SelUtils.performClick(db.getlogin());
+               SelUtils.performClick(db.getLogin());
               // driver.findElement(By.xpath(TestDataUtils.emailxpath)).sendKeys(email);
-               SelUtils.sendkeys(db.getemail(), email, 2);
-               SelUtils.sendkeys(db.getpassword(), password, 2);
+               SelUtils.sendkeys(db.getEmail(), email, 2);
+               SelUtils.sendkeys(db.getPassword(), password, 2);
                Thread.sleep(2000);
-               SelUtils.performClick(db.getclick());
+               SelUtils.performClick(db.getClick());
            }
               // driver.findElement(By.id("u_0_e")).clear();
               // driver.findElement(By.id("u_0_e")).sendKeys(firstName);

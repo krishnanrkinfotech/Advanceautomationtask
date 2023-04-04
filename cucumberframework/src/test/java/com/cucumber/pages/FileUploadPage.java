@@ -18,10 +18,10 @@ public class FileUploadPage extends BaseClass {
 	    @CacheLookup
 	    @FindBy(xpath="//input[@id='file-submit']")
 	    private WebElement upload;
-	    public  WebElement getchoosefile() {
+	    public  WebElement getChooseFile() {
 	    	return choosefile;
 	    }
-	    public WebElement getupload() {
+	    public WebElement getUpload() {
 	    	return upload;
 	    }
 }

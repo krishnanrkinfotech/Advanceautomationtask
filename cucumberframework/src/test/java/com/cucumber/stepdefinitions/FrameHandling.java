@@ -14,19 +14,19 @@ public class FrameHandling extends BaseClass {
 	public static org.apache.log4j.Logger log = Logj.getLogger(FrameHandling.class);
 	public static FramePage Frame1;
 
-	@Given("user navigate to the frame handling application")
-	public void user_navigate_to_the_frame_handling_application() throws IOException {
-		launchedge();
+	@Given("User navigate to the frame handling application")
+	public void User_navigate_to_the_frame_handling_application() throws IOException {
+		launchEdge();
 		log.info("launch the browser");
 		launchUrl(loadPropertyFile().getProperty("frameurl"));
 		log.info("Get the Frameurl");
 	}
 	
-	@Then("click on the frame")
-	public void click_on_the_frame() {
+	@Then("Click on the frame")
+	public void Click_on_the_frame() {
 		Frame1 = new FramePage();
-		SelUtils.frameHandle(Frame1.getframe1(), Frame1.getframe2());
-		SelUtils.performClick(Frame1.getframeclick());
+		SelUtils.frameHandle(Frame1.getFrame1(), Frame1.getFrame2());
+		SelUtils.performClick(Frame1.getFrameClick());
 		log.info("Handling the Frame");
 		driver.switchTo().defaultContent();
 	}

@@ -26,16 +26,16 @@ public class DatabasePage extends BaseClass {
 	    @FindBy(xpath="(//button[normalize-space()='Log in'])[1]")
 	    private WebElement click;
 	    
-	    public  WebElement getlogin() {
+	    public  WebElement getLogin() {
 	    	return login;
 	    }
-	    public WebElement getemail() {
+	    public WebElement getEmail() {
 	    	return email;
 	    }
-	    public WebElement getpassword() {
+	    public WebElement getPassword() {
 	    	return password;
 	    }
-	    public WebElement getclick() {
+	    public WebElement getClick() {
 	    	return click;
 	    }
 }

@@ -14,23 +14,23 @@ public class window extends BaseClass {
 	public static org.apache.log4j.Logger log = Logj.getLogger(window.class);
 	public static SelWindowsPage win;
 
-	@Given("user should be navigated to letcode windows handling application.")
-	public void user_should_be_navigated_to_letcode_windows_handling_application() throws IOException {
+	@Given("User should be navigated to letcode windows handling application.")
+	public void User_should_be_navigated_to_letcode_windows_handling_application() throws IOException {
 		launchChrome();
 		log.info("Launch the Chrome");
 		launchUrl(loadPropertyFile().getProperty("winurl"));
 	}
 
-	@Then("validate the windows Functionality")
+	@Then("Validate the windows Functionality")
 
-	public void validate_the_windows_functionality() {
+	public void Validate_the_windows_functionality() {
 		win = new SelWindowsPage();
 		String parentwin = driver.getWindowHandle();
-		SelUtils.performClick(win.getopen());
+		SelUtils.performClick(win.getOpen());
 		log.info("window open");
 		SelUtils.windows(parentwin);
 		log.info("Parentwindow");
-		SelUtils.performClick(win.getclick());
+		SelUtils.performClick(win.getClick());
 		driver.switchTo().window(parentwin);
 		log.info("Windows Validated Successfully");
 		System.out.println("windows validated successfully");

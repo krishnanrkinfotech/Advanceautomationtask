@@ -27,16 +27,16 @@ public class GreenHighlightPage extends BaseClass {
 	//@CacheLookup	
 	//@FindBy(xpath="//a[normalize-space()='Remind Me Later']") 
 	//private WebElement remind ;
-	public WebElement getusername1() {
+	public WebElement getUsername1() {
 		return username;
 	}
-	public WebElement getpassword1() {
+	public WebElement getPassword1() {
 		return password1;
 	}
-	public WebElement getclicklogin() {
+	public WebElement getClickLogin() {
 		return login;
 	}
-	public WebElement getgreen() {
+	public WebElement getGreen() {
 		return green;
 	}
 	//public WebElement getremind() {

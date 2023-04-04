@@ -22,13 +22,13 @@ public class AlertPage extends BaseClass {
     @FindBy(xpath="//button[@id='prompt']") 
 	private WebElement prompt ;
 	
-	public WebElement getsimple() {
+	public WebElement getSimple() {
 		return simple;
 	}
-	public WebElement getconfirm() {
+	public WebElement getConfirm() {
 		return confirm;
 	}
-	public WebElement getprompt() {
+	public WebElement getPrompt() {
 		return prompt;
 	} 
 }

@@ -7,8 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.cucumber.base.BaseClass;
 
-public class PetstorePage extends BaseClass{
-	public PetstorePage() {
+public class PetStorePage extends BaseClass{
+	public PetStorePage() {
 		PageFactory.initElements(driver, this);
 		}
 
@@ -26,17 +26,17 @@ private WebElement password1 ;
 @FindBy(xpath="(//button[normalize-space()='Login'])[1]") 
 private WebElement login1 ;
 
-public WebElement getsign() {
+public WebElement getSign() {
 	return signin;
 }
 
-public WebElement getemail1() {
+public WebElement getEmail1() {
 	return email1;
 }
-public WebElement getpassword1() {
+public WebElement getPassword1() {
 	return password1;
 }
-public WebElement getclicklogin1() {
+public WebElement getClickLogin1() {
 	return login1;
 }
 }

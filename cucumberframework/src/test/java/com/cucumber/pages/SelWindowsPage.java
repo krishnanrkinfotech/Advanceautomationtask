@@ -20,10 +20,10 @@ public class SelWindowsPage extends BaseClass{
 	private WebElement click ;
 	
 	//a[normalize-space()='Click']
-	public WebElement getopen() {
+	public WebElement getOpen() {
 		return open;
 	}
-	public WebElement getclick() {
+	public WebElement getClick() {
 		return click;
 	}
 }

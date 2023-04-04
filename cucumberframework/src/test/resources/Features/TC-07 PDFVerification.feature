@@ -1,5 +1,5 @@
 Feature: To validate the PDF verification Scenario
 
-  Scenario: Pdf verfication
-    Given validate the PDF  and assert the sucessfully
-    Then validate the  extract image from pdf
+  Scenario: PDF verfication
+    Given Validate the PDF  and assert the sucessfully
+    Then Validate the  extract image from pdf

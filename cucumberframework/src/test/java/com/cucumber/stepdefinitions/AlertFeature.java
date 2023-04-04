@@ -19,20 +19,20 @@ public class AlertFeature extends BaseClass {
 
 	public static AlertPage alerts1;
 
-	@Given("user should be navigated to letcode alerts")
-	public void user_should_be_navigated_to_letcode_alerts() throws IOException {
+	@Given("User should be navigated to letcode alerts")
+	public void User_should_be_navigated_to_letcode_alerts() throws IOException {
 
 		launchChrome();
 		log.info("Launching chrome");
 		launchUrl(loadPropertyFile().getProperty("alerturl"));
 	}
 
-	@When("I Clisk simple alert and handle it")
-	public void i_clisk_simple_alert_and_handle_it() {
+	@When("I Click simple alert and handle it")
+	public void i_Click_simple_alert_and_handle_it() {
 		alerts1 = new AlertPage();
 
 		// driver.findElement(By.xpath("//button[@id='accept']")).click();
-		SelUtils.performClick(alerts1.getsimple());
+		SelUtils.performClick(alerts1.getSimple());
 		// SelUtils.click(alerts1.getsimple());
 
 		SelUtils.staticWait();
@@ -41,10 +41,10 @@ public class AlertFeature extends BaseClass {
 		log.info("simple alert");
 	}
 
-	@When("I click the confirm and dismiss it")
-	public void i_click_the_confirm_and_dismiss_it() {
+	@When("I Click the confirm and dismiss it")
+	public void i_Click_the_confirm_and_dismiss_it() {
 		alerts1 = new AlertPage();
-		SelUtils.performClick(alerts1.getconfirm());
+		SelUtils.performClick(alerts1.getConfirm());
 
 		SelUtils.staticWait();
 		SelUtils.alertdismiss();
@@ -52,10 +52,10 @@ public class AlertFeature extends BaseClass {
 		log.info("confirm  alert");
 	}
 
-	@When("I clict the prompt alert")
-	public void i_clict_the_prompt_alert() {
+	@When("I Click the prompt alert")
+	public void i_Click_the_prompt_alert() {
 		alerts1 = new AlertPage();
-		SelUtils.performClick(alerts1.getprompt());
+		SelUtils.performClick(alerts1.getPrompt());
 		// SelUtils.staticWait();
 		SelUtils.alertgettext("rk");
 		SelUtils.alertaccept();

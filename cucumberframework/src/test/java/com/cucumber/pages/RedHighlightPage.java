@@ -25,16 +25,16 @@ public class RedHighlightPage extends BaseClass{
 	@FindBy(xpath="(//div[@id='error'])[1]") 
 	private WebElement error ;
 
-	public WebElement getusername1() {
+	public WebElement getUsername1() {
 		return username;
 	}
-	public WebElement getpassword() {
+	public WebElement getPassword() {
 		return password;
 	}
-	public WebElement getclicklogin() {
+	public WebElement getClickLogin() {
 		return login;
 	}
-	public WebElement geterr() {
+	public WebElement getErr() {
 		return error;
 	}
 }

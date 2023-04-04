@@ -16,19 +16,19 @@ public class FileUploadStepDef extends BaseClass {
 	public static org.apache.log4j.Logger log = Logj.getLogger(FileUploadStepDef.class);
 	public static FileUploadPage fileup;
 
-	@Given("user navigate to the fileupload application")
-	public void user_navigate_to_the_fileupload_application() throws IOException {
+	@Given("User navigate to the fileupload application")
+	public void User_navigate_to_the_fileupload_application() throws IOException {
 		launchChrome();
 		log.info("Launch the Chrome");
 		launchUrl(loadPropertyFile().getProperty("fileuploadurl"));
 		log.info("Get the Fileuploadurl");
 	}
 
-	@When("user click on the choose file and upload")
-	public void user_click_on_the_choose_file_and_upload() throws AWTException, IOException {
+	@When("User click on the choose file and upload")
+	public void User_click_on_the_choose_file_and_upload() throws AWTException, IOException {
 		fileup = new FileUploadPage();
 
-		SelUtils.sendkeys(fileup.getchoosefile(), TestDataUtils.file, 1);
+		SelUtils.sendkeys(fileup.getChooseFile(), TestDataUtils.file, 1);
 		log.info("Choose the File");
 		// SelUtils.performClick(fileup.getchoosefile());
 		// SelUtils.staticWait();
@@ -37,10 +37,10 @@ public class FileUploadStepDef extends BaseClass {
 
 	}
 
-	@When("click upload button")
-	public void click_upload_button() {
+	@When("Click upload button")
+	public void Click_upload_button() {
 		fileup = new FileUploadPage();
-		SelUtils.performClick(fileup.getupload());
+		SelUtils.performClick(fileup.getUpload());
 		log.info("click on the upload button");
 		SelUtils.staticWait();
 	}

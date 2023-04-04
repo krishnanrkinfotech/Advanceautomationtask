@@ -33,7 +33,7 @@ public class BaseClass {
 
 	}
 
-	public static WebDriver launchedge() {
+	public static WebDriver launchEdge() {
 		WebDriverManager.edgedriver().setup();
 		driver = new EdgeDriver();
 		return driver;
