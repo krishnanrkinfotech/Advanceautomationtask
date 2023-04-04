@@ -24,7 +24,7 @@ public class AlertFeature extends BaseClass {
 
 		launchChrome();
 		log.info("Launching chrome");
-		launchUrl(loadPropertyFile().getProperty("alerturl"));
+		launchUrl(loadPropertyFile().getProperty("alertUrl"));
 	}
 
 	@When("I Click simple alert and handle it")
@@ -48,6 +48,7 @@ public class AlertFeature extends BaseClass {
 
 		SelUtils.staticWait();
 		SelUtils.alertdismiss();
+		SelUtils.staticWait();
 		System.out.println("System is in Dismiss the alert");
 		log.info("confirm  alert");
 	}

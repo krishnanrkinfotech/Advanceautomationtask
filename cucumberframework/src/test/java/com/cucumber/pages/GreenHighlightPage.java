@@ -12,17 +12,17 @@ public class GreenHighlightPage extends BaseClass {
 		PageFactory.initElements(driver, this);
 		}
 	@CacheLookup	
-	@FindBy(xpath="//input[@placeholder='Username']") 
+	@FindBy(xpath="(//input[@placeholder='Username'])[1]") 
 	private WebElement username ;
 	@CacheLookup	
-	@FindBy(xpath="//input[@placeholder='Password']") 
+	@FindBy(xpath="(//input[@placeholder='Password'])[1]") 
 	private WebElement password1 ;
 
 	@CacheLookup	
-	@FindBy(xpath="//button[normalize-space()='Login']") 
+	@FindBy(xpath="(//button[normalize-space()='Login'])[1]") 
 	private WebElement login ;
 	@CacheLookup	
-	@FindBy(xpath="//h6[normalize-space()='Dashboard']") 
+	@FindBy(xpath="(//span[@class='oxd-userdropdown-tab'])[1]") 
 	private WebElement green ;
 	//@CacheLookup	
 	//@FindBy(xpath="//a[normalize-space()='Remind Me Later']") 

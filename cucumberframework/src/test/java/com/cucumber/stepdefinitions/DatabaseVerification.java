@@ -6,6 +6,7 @@ import java.sql.ResultSet;
 //import org.openqa.selenium.By;
 
 import com.cucumber.base.BaseClass;
+import com.cucumber.base.Logj;
 import com.cucumber.pages.DatabasePage;
 import com.cucumber.utilities.DatabaseUtils;
 import com.cucumber.utilities.SelUtils;
@@ -15,11 +16,16 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
 public class DatabaseVerification extends BaseClass {
+	public static org.apache.log4j.Logger log = Logj.getLogger(DatabaseVerification.class);
+
 	public DatabasePage db;
 	@Given("Launch the url")
 	public void launch_the_url() throws IOException, InterruptedException {
 		 launchChrome();
-		   launchUrl(loadPropertyFile().getProperty("dburl"));
+		 log.info("Launch the chrome");
+		   launchUrl(loadPropertyFile().getProperty("databaseUrl"));
+			 log.info("Passing the Database url");
+
 		  Thread.sleep(2000);
 	}
 	
@@ -41,6 +47,8 @@ public class DatabaseVerification extends BaseClass {
 
                System.out.println(email);
                System.out.println(password);
+      		 log.info("Pass the username and Password");
+
                //driver.findElement(By.xpath("(//a[normalize-space()='Log in'])[1]")).click();
                SelUtils.performClick(db.getLogin());
               // driver.findElement(By.xpath(TestDataUtils.emailxpath)).sendKeys(email);
@@ -48,6 +56,8 @@ public class DatabaseVerification extends BaseClass {
                SelUtils.sendkeys(db.getPassword(), password, 2);
                Thread.sleep(2000);
                SelUtils.performClick(db.getClick());
+      		 log.info("Database perform successfully");
+
            }
               // driver.findElement(By.id("u_0_e")).clear();
               // driver.findElement(By.id("u_0_e")).sendKeys(firstName);

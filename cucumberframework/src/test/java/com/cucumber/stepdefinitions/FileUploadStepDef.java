@@ -20,7 +20,7 @@ public class FileUploadStepDef extends BaseClass {
 	public void User_navigate_to_the_fileupload_application() throws IOException {
 		launchChrome();
 		log.info("Launch the Chrome");
-		launchUrl(loadPropertyFile().getProperty("fileuploadurl"));
+		launchUrl(loadPropertyFile().getProperty("fileUploadUrl"));
 		log.info("Get the Fileuploadurl");
 	}
 

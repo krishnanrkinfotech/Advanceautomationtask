@@ -39,107 +39,105 @@ import com.testautomationguru.utility.PDFUtil;
 
 public class SelUtils extends BaseClass {
 
-	public static void sendkeys(WebElement a,String value ,int timeout) {
-		new WebDriverWait(driver,timeout).until(ExpectedConditions.visibilityOf(a));
-		//until(ExpectedConditions.visibilityOf(e));
+	public static void sendkeys(WebElement a, String value, int timeout) {
+		new WebDriverWait(driver, timeout).until(ExpectedConditions.visibilityOf(a));
+		// until(ExpectedConditions.visibilityOf(e));
 		a.sendKeys(value);
 	}
+
 //	public static void click(WebElement m) {
 //		
 //		m.click();
 //	}
-	public static void performClick(WebElement b) { 
-		
-		JavascriptExecutor executor = (JavascriptExecutor)driver;
+	public static void performClick(WebElement b) {
+
+		JavascriptExecutor executor = (JavascriptExecutor) driver;
 		executor.executeScript("arguments[0].click();", b);
-		
-		
+
 //		JavascriptExecutor js = (JavascriptExecutor) sdriver; 
 //		js.executeScript("arguments[0].click()", b); 
-			
-			
-			
+
 	}
+
 	public static void staticWait() {
-		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		// driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
-	
-	
 
-public static void fileUpload() throws AWTException {
+	public static void fileUpload() throws AWTException {
 
-Robot robot = new Robot();
+		Robot robot = new Robot();
 
-StringSelection fileCopy = new StringSelection(TestDataUtils.file);
+		StringSelection fileCopy = new StringSelection(TestDataUtils.file);
 
-Toolkit.getDefaultToolkit().getSystemClipboard().setContents(fileCopy, null);
+		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(fileCopy, null);
 
-robot.setAutoDelay(3000);
+		robot.setAutoDelay(3000);
 
-robot.keyPress(KeyEvent.VK_CONTROL);
+		robot.keyPress(KeyEvent.VK_CONTROL);
 
-robot.keyPress(KeyEvent.VK_V);
+		robot.keyPress(KeyEvent.VK_V);
 
-robot.keyRelease(KeyEvent.VK_V);
+		robot.keyRelease(KeyEvent.VK_V);
 
-robot.keyRelease(KeyEvent.VK_CONTROL);
+		robot.keyRelease(KeyEvent.VK_CONTROL);
 
-robot.keyPress(KeyEvent.VK_ENTER);
+		robot.keyPress(KeyEvent.VK_ENTER);
 
-robot.keyRelease(KeyEvent.VK_ENTER);
-}
-	
-	public Properties loadPropertyFile() throws IOException{
-		FileInputStream fileInputStream= new FileInputStream("src\\test\\resources\\PropertiesFile\\config.properties");
-		Properties properties= new Properties();
+		robot.keyRelease(KeyEvent.VK_ENTER);
+	}
+
+	public Properties loadPropertyFile() throws IOException {
+		FileInputStream fileInputStream = new FileInputStream(
+				"src\\test\\resources\\PropertiesFile\\config.properties");
+		Properties properties = new Properties();
 		properties.load(fileInputStream);
 		return properties;
 	}
+
 	public static void alertaccept() {
 		Alert acceptalert = driver.switchTo().alert();
 		String text = acceptalert.getText();
-		System.out.println("System is in alertaccept"+ text);
+		System.out.println("System is in alertaccept" + text);
 		acceptalert.accept();
-	
+
 	}
+
 	public static void alertdismiss() {
 		Alert dismissalert = driver.switchTo().alert();
 		String text1 = dismissalert.getText();
-		System.out.println("System is in alertdismiss"+ text1);
+		System.out.println("System is in alertdismiss" + text1);
 		dismissalert.dismiss();
-		
+
 	}
 
-	
 	public static void alertgettext(String value) {
 		Alert promptalert = driver.switchTo().alert();
 		promptalert.sendKeys(value);
-	
+
 	}
-	 public static void frameHandle(WebElement d,WebElement e) {
-		 List<WebElement> iframe = driver.findElements(By.tagName("iframe"));
-		 int framecount =iframe.size();
-		 System.out.println("Framecount"+framecount);
-		 driver.switchTo().frame(d);
-		 driver.switchTo().frame(e);
-		 }
-	 
-	 public static void redHighLight(WebElement highlight) {
-		 JavascriptExecutor js =(JavascriptExecutor)driver;
-		 js.executeScript("arguments[0].setAttribute('style','background:red;border:2px black');", highlight);
-	 }
- public static void greenHighLight(WebElement highlight) {
-		 
-	 JavascriptExecutor js =(JavascriptExecutor)driver;
-	 js.executeScript("arguments[0].setAttribute('style','background:green;border:2px black');", highlight);
-	 }
- public static void pdfReaderTest(String file) throws Exception {
 
+	public static void frameHandle(WebElement d, WebElement e) {
+		List<WebElement> iframe = driver.findElements(By.tagName("iframe"));
+		int framecount = iframe.size();
+		System.out.println("Framecount" + framecount);
+		driver.switchTo().frame(d);
+		driver.switchTo().frame(e);
+	}
 
-	 
-		
-		
+	public static void redHighLight(WebElement highlight) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].setAttribute('style','background:red;border:2px black');", highlight);
+	}
+
+	public static void greenHighLight(WebElement highlight) {
+
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].setAttribute('style','background:green;border:2px black');", highlight);
+	}
+
+	public static void pdfReaderTest(String file) throws Exception {
+
 		URL pdfUrl = new URL(file);
 		URLConnection urlConnection = pdfUrl.openConnection();
 		urlConnection.addRequestProperty("User-Agent", "Mozilla");
@@ -148,54 +146,49 @@ robot.keyRelease(KeyEvent.VK_ENTER);
 		BufferedInputStream bf = new BufferedInputStream(ip);
 		PDDocument pdDocument = PDDocument.load(bf);
 
-		//page count:
+		// page count:
 		int pageCount = pdDocument.getNumberOfPages();
-	System.out.println("pdf page: " + pageCount);
-	Assert.assertEquals(pageCount, 17);
-	
+		System.out.println("pdf page: " + pageCount);
+		Assert.assertEquals(pageCount, 17);
 
-		
-	System.out.println("========================pdf content===============");
-	// full pdf page content/text:
-			PDFTextStripper pdfStiper = new PDFTextStripper();
-			String pdfText = pdfStiper.getText(pdDocument);
+		System.out.println("========================pdf content===============");
+		// full pdf page content/text:
+		PDFTextStripper pdfStiper = new PDFTextStripper();
+		String pdfText = pdfStiper.getText(pdDocument);
 		System.out.println(pdfText);
 		Assert.assertTrue(pdfText.contains("SoapUI CI/CD "));
-Assert.assertTrue(pdfText.contains("API Testing using POSTMAN"));
-	
+		Assert.assertTrue(pdfText.contains("API Testing using POSTMAN"));
+
 	}
- public static  void imageextpdf(String location,String pdfloc) throws IOException {
-		//String location="F:\\images";
-		//String pdfloc="F:\\Rk_Latest\\Downloads\\Salesforce_Municipal_Lightning_User_Guide_v2.pdf";
+
+	public static void imageextpdf(String location, String pdfloc) throws IOException {
+		// String location="F:\\images";
+		// String
+		// pdfloc="F:\\Rk_Latest\\Downloads\\Salesforce_Municipal_Lightning_User_Guide_v2.pdf";
 		PDFUtil pdfutil = new PDFUtil();
 		pdfutil.setImageDestinationPath(location);
 		pdfutil.extractImages(pdfloc);
 
 	}
-	
-public static void windows(String parentwindow){
-Set<String> allwin = driver.getWindowHandles();
-System.out.println(allwin);
-for(String handles : allwin){
-if(!parentwindow.equals(allwin))
-{
-driver.switchTo().window(handles);
-System.out.println("inside childwindow");
-}
-}
 
-}
+	public static void windows(String parentwindow) {
+		Set<String> allwin = driver.getWindowHandles();
+		System.out.println(allwin);
+		for (String handles : allwin) {
+			if (!parentwindow.equals(allwin)) {
+				driver.switchTo().window(handles);
+				System.out.println("inside childwindow");
+			}
+		}
 
-public static String readJsonData(Object users) throws FileNotFoundException, IOException, ParseException  {
- JSONParser jsonParser=new JSONParser();
- JSONObject jsonObj=(JSONObject)jsonParser.parse(new FileReader(TestDataUtils.jsonpath));
-  String users1 =(String)jsonObj.get(users);
-  return users1;
+	}
 
+	public static String readJsonData(Object users) throws FileNotFoundException, IOException, ParseException {
+		JSONParser jsonParser = new JSONParser();
+		JSONObject jsonObj = (JSONObject) jsonParser.parse(new FileReader(TestDataUtils.jsonpath));
+		String users1 = (String) jsonObj.get(users);
+		return users1;
 
-}
-
-
-	
+	}
 
 }

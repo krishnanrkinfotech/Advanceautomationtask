@@ -18,7 +18,7 @@ public class InValidScenario extends BaseClass{
 	public void User_navigate_to_the_salesforce_application() throws IOException {
 	    launchChrome();
 	    log.info("Launch the Chrome");
-	    launchUrl(loadPropertyFile().getProperty("saleurl"));
+	    launchUrl(loadPropertyFile().getProperty("salesforceUrl"));
 	}
 
 	@When("Enter the username and Password")

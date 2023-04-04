@@ -18,16 +18,17 @@ public class ValidScenario extends BaseClass{
 	public void User_login_to_the_orange_application() throws IOException {
 	    launchChrome();
 	    log.info("Launch the Chrome");
-	    launchUrl(loadPropertyFile().getProperty("orangeurl"));
+	    launchUrl(loadPropertyFile().getProperty("orangeWebUrl"));
 	}
 	@When("Enter the valid  username and valid  Password")
 	public void Enter_the_valid_username_and_valid_password() throws IOException, ParseException {
 	  green = new GreenHighlightPage();
 	  SelUtils.staticWait();
-	  //SelUtils.sendkeys(green.getusername1(), loadPropertyFile().getProperty("username1"),1);
-	 // SelUtils.sendkeys(green.getpassword1(), loadPropertyFile().getProperty("password1"),1);
+	  //SelUtils.sendkeys(green.getUsername1(), loadPropertyFile().getProperty("username1"),1);
+	 // SelUtils.sendkeys(green.getPassword1(), loadPropertyFile().getProperty("password1"),1);
 	  SelUtils.sendkeys(green.getUsername1(), SelUtils.readJsonData("userName"),1);
-	  SelUtils.sendkeys(green.getPassword1(), SelUtils.readJsonData("password"),1);
+	  SelUtils.staticWait();
+	 SelUtils.sendkeys(green.getPassword1(), SelUtils.readJsonData("password"),1);
 	  SelUtils.staticWait();
 	  log.info("Pass the username and Password");
 	}

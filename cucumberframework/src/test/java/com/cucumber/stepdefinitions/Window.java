@@ -10,15 +10,15 @@ import com.cucumber.utilities.*;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
-public class window extends BaseClass {
-	public static org.apache.log4j.Logger log = Logj.getLogger(window.class);
+public class Window extends BaseClass {
+	public static org.apache.log4j.Logger log = Logj.getLogger(Window.class);
 	public static SelWindowsPage win;
 
 	@Given("User should be navigated to letcode windows handling application.")
 	public void User_should_be_navigated_to_letcode_windows_handling_application() throws IOException {
 		launchChrome();
 		log.info("Launch the Chrome");
-		launchUrl(loadPropertyFile().getProperty("winurl"));
+		launchUrl(loadPropertyFile().getProperty("windowsUrl"));
 	}
 
 	@Then("Validate the windows Functionality")

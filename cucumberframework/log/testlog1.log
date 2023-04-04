@@ -287,3 +287,159 @@
 2023-04-04 23:18:54,685 [main] INFO com.cucumber.stepdefinitions.AlertFeature - simple alert
 2023-04-04 23:18:54,766 [main] INFO com.cucumber.stepdefinitions.AlertFeature - confirm  alert
 2023-04-04 23:18:54,945 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Prompt alert
+2023-04-05 00:05:06,078 [main] INFO com.cucumber.stepdefinitions.FrameHandling - launch the browser
+2023-04-05 00:05:08,664 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Get the Frameurl
+2023-04-05 00:05:08,992 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Handling the Frame
+2023-04-05 00:05:09,003 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Frame Handled successfully
+2023-04-05 00:05:11,911 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Launch the Chrome
+2023-04-05 00:05:14,928 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Launch the Chrome
+2023-04-05 00:05:22,085 [main] INFO com.cucumber.stepdefinitions.Window - Launch the Chrome
+2023-04-05 00:05:26,083 [main] INFO com.cucumber.stepdefinitions.Window - window open
+2023-04-05 00:05:26,149 [main] INFO com.cucumber.stepdefinitions.Window - Parentwindow
+2023-04-05 00:05:28,622 [main] INFO com.cucumber.stepdefinitions.Window - Windows Validated Successfully
+2023-04-05 00:05:31,621 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Launch the Chrome
+2023-04-05 00:05:35,702 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Get the Fileuploadurl
+2023-04-05 00:05:35,935 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Choose the File
+2023-04-05 00:05:36,472 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - click on the upload button
+2023-04-05 00:05:36,488 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - File upload is successfully
+2023-04-05 00:05:39,860 [main] INFO com.cucumber.stepdefinitions.DatabaseVerification - Launch the chrome
+2023-04-05 00:05:42,426 [main] INFO com.cucumber.stepdefinitions.DatabaseVerification - Passing the Database url
+2023-04-05 00:05:47,679 [main] INFO com.cucumber.stepdefinitions.DatabaseVerification - Pass the username and Password
+2023-04-05 00:05:52,036 [main] INFO com.cucumber.stepdefinitions.DatabaseVerification - Database perform successfully
+2023-04-05 00:05:53,600 [main] INFO com.cucumber.stepdefinitions.PetstoreExcel - launch the chrome
+2023-04-05 00:06:11,583 [main] INFO com.cucumber.stepdefinitions.PetstoreExcel - launch the petstore url
+2023-04-05 00:06:13,759 [main] INFO com.cucumber.stepdefinitions.PetstoreExcel - Passing the username through excel
+2023-04-05 00:06:13,964 [main] INFO com.cucumber.stepdefinitions.PetstoreExcel - Passing the password through excel
+2023-04-05 00:06:15,384 [main] INFO com.cucumber.stepdefinitions.PetstoreExcel - Perform login action
+2023-04-05 00:06:15,389 [main] INFO com.cucumber.stepdefinitions.PetstoreExcel - Excel Data Passed successfully
+2023-04-05 00:06:20,723 [main] INFO com.cucumber.stepdefinitions.EmailSending - Email Sent successfully
+2023-04-05 00:06:21,874 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Launching chrome
+2023-04-05 00:06:24,008 [main] INFO com.cucumber.stepdefinitions.AlertFeature - simple alert
+2023-04-05 00:06:24,057 [main] INFO com.cucumber.stepdefinitions.AlertFeature - confirm  alert
+2023-04-05 00:06:24,185 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Prompt alert
+2023-04-05 00:09:44,715 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Launch the Chrome
+2023-04-05 00:09:47,416 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pass the username and Password
+2023-04-05 00:09:47,823 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Click on the Login Button
+2023-04-05 00:09:47,890 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 00:09:47,908 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 00:09:50,070 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Launch the Chrome
+2023-04-05 00:16:02,806 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Launch the Chrome
+2023-04-05 00:16:05,484 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pass the username and Password
+2023-04-05 00:16:05,615 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Click on the Login Button
+2023-04-05 00:16:05,979 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 00:16:05,994 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 00:16:08,316 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Launch the Chrome
+2023-04-05 00:26:04,418 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Launch the Chrome
+2023-04-05 00:26:06,601 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pass the username and Password
+2023-04-05 00:26:07,108 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Click on the Login Button
+2023-04-05 00:26:07,160 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 00:26:07,172 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 00:26:08,934 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Launch the Chrome
+2023-04-05 00:32:26,023 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Launch the Chrome
+2023-04-05 00:32:27,931 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pass the username and Password
+2023-04-05 00:32:28,358 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Click on the Login Button
+2023-04-05 00:32:28,409 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 00:32:28,422 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 00:32:30,209 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Launch the Chrome
+2023-04-05 00:34:16,609 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Launch the Chrome
+2023-04-05 00:34:19,753 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pass the username and Password
+2023-04-05 00:34:19,839 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Click on the Login Button
+2023-04-05 00:34:20,186 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 00:34:20,201 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 00:34:21,811 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Launch the Chrome
+2023-04-05 00:34:27,645 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Get the pdfurl
+2023-04-05 00:34:30,663 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Image extracted from the PDF
+2023-04-05 00:47:39,940 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Launch the Chrome
+2023-04-05 00:47:41,961 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pass the username and Password
+2023-04-05 00:47:42,312 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Click on the Login Button
+2023-04-05 00:47:42,392 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 00:47:42,404 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 00:47:43,862 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Launch the Chrome
+2023-04-05 00:47:49,566 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Get the pdfurl
+2023-04-05 00:47:52,208 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Image extracted from the PDF
+2023-04-05 00:48:29,031 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Launch the Chrome
+2023-04-05 00:48:31,695 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pass the username and Password
+2023-04-05 00:48:31,757 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Click on the Login Button
+2023-04-05 00:48:32,108 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 00:48:32,121 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 00:48:33,543 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Launch the Chrome
+2023-04-05 00:48:39,529 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Get the pdfurl
+2023-04-05 00:48:42,134 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Image extracted from the PDF
+2023-04-05 00:50:18,003 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Launch the Chrome
+2023-04-05 00:50:20,372 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pass the username and Password
+2023-04-05 00:50:20,504 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Click on the Login Button
+2023-04-05 00:50:20,881 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 00:50:20,895 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 00:50:22,393 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Launch the Chrome
+2023-04-05 00:50:26,387 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pass the username and Password
+2023-04-05 00:50:28,092 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pointed out the Green highlighted successfully ingreencolor
+2023-04-05 00:50:30,637 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Get the pdfurl
+2023-04-05 00:50:33,011 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Image extracted from the PDF
+2023-04-05 00:53:06,743 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Launch the Chrome
+2023-04-05 00:53:09,161 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pass the username and Password
+2023-04-05 00:53:09,603 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Click on the Login Button
+2023-04-05 00:53:09,953 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 00:53:09,965 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 00:53:12,144 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Launch the Chrome
+2023-04-05 00:53:16,851 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pass the username and Password
+2023-04-05 00:53:18,704 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pointed out the Green highlighted successfully ingreencolor
+2023-04-05 00:53:21,906 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Get the pdfurl
+2023-04-05 00:53:24,985 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Image extracted from the PDF
+2023-04-05 00:55:43,496 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Launch the Chrome
+2023-04-05 00:55:45,473 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pass the username and Password
+2023-04-05 00:55:46,004 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Click on the Login Button
+2023-04-05 00:55:46,082 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 00:55:46,097 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 00:55:47,744 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Launch the Chrome
+2023-04-05 00:55:54,561 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Get the pdfurl
+2023-04-05 00:55:57,573 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Image extracted from the PDF
+2023-04-05 00:57:22,889 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Launch the Chrome
+2023-04-05 00:57:26,000 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pass the username and Password
+2023-04-05 00:57:26,561 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Click on the Login Button
+2023-04-05 00:57:26,601 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 00:57:26,674 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 00:57:28,224 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Launch the Chrome
+2023-04-05 00:57:32,945 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pass the username and Password
+2023-04-05 00:57:34,715 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pointed out the Green highlighted successfully ingreencolor
+2023-04-05 00:57:37,102 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Get the pdfurl
+2023-04-05 00:57:39,787 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Image extracted from the PDF
+2023-04-05 01:01:51,263 [main] INFO com.cucumber.stepdefinitions.FrameHandling - launch the browser
+2023-04-05 01:01:54,149 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Get the Frameurl
+2023-04-05 01:01:54,759 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Handling the Frame
+2023-04-05 01:01:54,770 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Frame Handled successfully
+2023-04-05 01:01:57,179 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Launch the Chrome
+2023-04-05 01:02:01,146 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pass the username and Password
+2023-04-05 01:02:01,625 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Click on the Login Button
+2023-04-05 01:02:01,975 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 01:02:02,150 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-05 01:02:03,901 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Launch the Chrome
+2023-04-05 01:02:11,417 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pass the username and Password
+2023-04-05 01:02:13,325 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pointed out the Green highlighted successfully ingreencolor
+2023-04-05 01:02:15,442 [main] INFO com.cucumber.stepdefinitions.Window - Launch the Chrome
+2023-04-05 01:02:24,416 [main] INFO com.cucumber.stepdefinitions.Window - window open
+2023-04-05 01:02:24,615 [main] INFO com.cucumber.stepdefinitions.Window - Parentwindow
+2023-04-05 01:02:36,083 [main] INFO com.cucumber.stepdefinitions.Window - Windows Validated Successfully
+2023-04-05 01:02:38,030 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Launch the Chrome
+2023-04-05 01:02:42,864 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Get the Fileuploadurl
+2023-04-05 01:02:43,021 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Choose the File
+2023-04-05 01:02:43,451 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - click on the upload button
+2023-04-05 01:02:43,477 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - File upload is successfully
+2023-04-05 01:02:46,574 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Get the pdfurl
+2023-04-05 01:02:50,964 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Image extracted from the PDF
+2023-04-05 01:02:53,373 [main] INFO com.cucumber.stepdefinitions.DatabaseVerification - Launch the chrome
+2023-04-05 01:02:55,372 [main] INFO com.cucumber.stepdefinitions.DatabaseVerification - Passing the Database url
+2023-04-05 01:02:58,909 [main] INFO com.cucumber.stepdefinitions.DatabaseVerification - Pass the username and Password
+2023-04-05 01:03:10,090 [main] INFO com.cucumber.stepdefinitions.DatabaseVerification - Database perform successfully
+2023-04-05 01:03:12,609 [main] INFO com.cucumber.stepdefinitions.PetstoreExcel - launch the chrome
+2023-04-05 01:03:23,332 [main] INFO com.cucumber.stepdefinitions.PetstoreExcel - launch the petstore url
+2023-04-05 01:03:25,604 [main] INFO com.cucumber.stepdefinitions.PetstoreExcel - Passing the username through excel
+2023-04-05 01:03:25,916 [main] INFO com.cucumber.stepdefinitions.PetstoreExcel - Passing the password through excel
+2023-04-05 01:03:27,212 [main] INFO com.cucumber.stepdefinitions.PetstoreExcel - Perform login action
+2023-04-05 01:03:27,219 [main] INFO com.cucumber.stepdefinitions.PetstoreExcel - Excel Data Passed successfully
+2023-04-05 01:03:32,427 [main] INFO com.cucumber.stepdefinitions.EmailSending - Email Sent successfully
+2023-04-05 01:03:35,541 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Launching chrome
+2023-04-05 01:03:40,277 [main] INFO com.cucumber.stepdefinitions.AlertFeature - simple alert
+2023-04-05 01:14:17,849 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Launching chrome
+2023-04-05 01:14:20,512 [main] INFO com.cucumber.stepdefinitions.AlertFeature - simple alert
+2023-04-05 01:14:20,759 [main] INFO com.cucumber.stepdefinitions.AlertFeature - confirm  alert
+2023-04-05 01:14:21,148 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Prompt alert

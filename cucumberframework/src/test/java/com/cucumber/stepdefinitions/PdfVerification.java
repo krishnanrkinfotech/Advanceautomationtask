@@ -14,7 +14,7 @@ public class PdfVerification extends BaseClass {
 
 	@Given("Validate the PDF  and assert the sucessfully")
 	public void Validate_the_pdf_and_assert_the_sucessfully() throws IOException, Exception {
-		SelUtils.pdfReaderTest(loadPropertyFile().getProperty("pdfurl"));
+		SelUtils.pdfReaderTest(loadPropertyFile().getProperty("PDFUrl"));
 		log.info("Get the pdfurl");
 	}
 

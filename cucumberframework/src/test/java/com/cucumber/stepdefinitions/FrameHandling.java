@@ -18,7 +18,7 @@ public class FrameHandling extends BaseClass {
 	public void User_navigate_to_the_frame_handling_application() throws IOException {
 		launchEdge();
 		log.info("launch the browser");
-		launchUrl(loadPropertyFile().getProperty("frameurl"));
+		launchUrl(loadPropertyFile().getProperty("frameUrl"));
 		log.info("Get the Frameurl");
 	}
 	
