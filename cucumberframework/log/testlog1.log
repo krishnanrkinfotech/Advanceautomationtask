@@ -443,3 +443,41 @@
 2023-04-05 01:14:20,512 [main] INFO com.cucumber.stepdefinitions.AlertFeature - simple alert
 2023-04-05 01:14:20,759 [main] INFO com.cucumber.stepdefinitions.AlertFeature - confirm  alert
 2023-04-05 01:14:21,148 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Prompt alert
+2023-04-08 12:34:44,303 [main] INFO com.cucumber.stepdefinitions.FrameHandling - launch the browser
+2023-04-08 12:34:47,316 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Get the Frameurl
+2023-04-08 12:34:47,630 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Handling the Frame
+2023-04-08 12:34:47,637 [main] INFO com.cucumber.stepdefinitions.FrameHandling - Frame Handled successfully
+2023-04-08 12:34:50,197 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Launch the Chrome
+2023-04-08 12:34:52,991 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pass the username and Password
+2023-04-08 12:34:53,525 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Click on the Login Button
+2023-04-08 12:34:53,594 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-08 12:34:53,604 [main] INFO com.cucumber.stepdefinitions.InValidScenario - Pointed out the error successfully in red color
+2023-04-08 12:34:54,881 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Launch the Chrome
+2023-04-08 12:35:02,454 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pass the username and Password
+2023-04-08 12:35:04,186 [main] INFO com.cucumber.stepdefinitions.ValidScenario - Pointed out the Green highlighted successfully ingreencolor
+2023-04-08 12:35:05,854 [main] INFO com.cucumber.stepdefinitions.Window - Launch the Chrome
+2023-04-08 12:35:11,281 [main] INFO com.cucumber.stepdefinitions.Window - window open
+2023-04-08 12:35:11,363 [main] INFO com.cucumber.stepdefinitions.Window - Parentwindow
+2023-04-08 12:35:13,804 [main] INFO com.cucumber.stepdefinitions.Window - Windows Validated Successfully
+2023-04-08 12:35:15,847 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Launch the Chrome
+2023-04-08 12:35:19,275 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Get the Fileuploadurl
+2023-04-08 12:35:19,370 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - Choose the File
+2023-04-08 12:35:19,754 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - click on the upload button
+2023-04-08 12:35:19,769 [main] INFO com.cucumber.stepdefinitions.FileUploadStepDef - File upload is successfully
+2023-04-08 12:35:22,519 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Get the pdfurl
+2023-04-08 12:35:25,359 [main] INFO com.cucumber.stepdefinitions.PdfVerification - Image extracted from the PDF
+2023-04-08 12:35:27,257 [main] INFO com.cucumber.stepdefinitions.DatabaseVerification - Launch the chrome
+2023-04-08 12:35:29,162 [main] INFO com.cucumber.stepdefinitions.DatabaseVerification - Passing the Database url
+2023-04-08 12:35:32,291 [main] INFO com.cucumber.stepdefinitions.DatabaseVerification - Pass the username and Password
+2023-04-08 12:35:36,205 [main] INFO com.cucumber.stepdefinitions.DatabaseVerification - Database perform successfully
+2023-04-08 12:35:37,770 [main] INFO com.cucumber.stepdefinitions.PetstoreExcel - launch the chrome
+2023-04-08 12:35:41,633 [main] INFO com.cucumber.stepdefinitions.PetstoreExcel - launch the petstore url
+2023-04-08 12:35:44,213 [main] INFO com.cucumber.stepdefinitions.PetstoreExcel - Passing the username through excel
+2023-04-08 12:35:44,486 [main] INFO com.cucumber.stepdefinitions.PetstoreExcel - Passing the password through excel
+2023-04-08 12:35:46,610 [main] INFO com.cucumber.stepdefinitions.PetstoreExcel - Perform login action
+2023-04-08 12:35:46,611 [main] INFO com.cucumber.stepdefinitions.PetstoreExcel - Excel Data Passed successfully
+2023-04-08 12:35:54,202 [main] INFO com.cucumber.stepdefinitions.EmailSending - Email Sent successfully
+2023-04-08 12:35:55,628 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Launching chrome
+2023-04-08 12:36:01,906 [main] INFO com.cucumber.stepdefinitions.AlertFeature - simple alert
+2023-04-08 12:36:01,961 [main] INFO com.cucumber.stepdefinitions.AlertFeature - confirm  alert
+2023-04-08 12:36:02,121 [main] INFO com.cucumber.stepdefinitions.AlertFeature - Prompt alert
